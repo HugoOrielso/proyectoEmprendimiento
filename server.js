@@ -11,7 +11,6 @@ app.get('/',(req,res)=>{
 
 app.use(express.static('public'))
 
-
 app.set('public',path.join(__dirname,'./public'))
 app.set('views',path.join(__dirname,'./views'))
 
