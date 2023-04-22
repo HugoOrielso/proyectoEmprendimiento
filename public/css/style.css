@@ -1,6 +1,22 @@
 body{
-    background-color: black;
+    background-color: white;
 }
 h1{
-    color: red;
+    color:black;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+}
+ul{
+    display: flex;
+    gap: 1rem;
+}
+li::marker{
+    content: '';
+}
+li{
+    width: 100%;
 }
